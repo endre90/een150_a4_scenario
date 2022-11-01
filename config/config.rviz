@@ -56,9 +56,13 @@ Visualization Manager:
           Value: true
         base_link_inertia:
           Value: true
+        blue_cube:
+          Value: true
         flange:
           Value: true
         forearm_link:
+          Value: true
+        green_cube:
           Value: true
         red_cube:
           Value: true
@@ -88,11 +92,11 @@ Visualization Manager:
           Value: true
         wrist_3_link:
           Value: true
-      Marker Scale: 0.6000000238418579
+      Marker Scale: 0.30000001192092896
       Name: TF
       Show Arrows: false
       Show Axes: true
-      Show Names: true
+      Show Names: false
       Tree:
         world_origin:
           world:
@@ -113,6 +117,10 @@ Visualization Manager:
                                     svt:
                                       svt_tcp:
                                         {}
+            blue_cube:
+              {}
+            green_cube:
+              {}
             red_cube:
               {}
             teaching_marker:
@@ -275,25 +283,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 2.3333754539489746
+      Distance: 3.464650869369507
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 1.2859777212142944
-        Y: 0.7372142672538757
-        Z: 0.5448628664016724
+        X: 0.5537312626838684
+        Y: 0.7210503816604614
+        Z: -0.14305296540260315
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.4503980875015259
+      Pitch: 0.46039819717407227
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.4203747510910034
+      Yaw: 2.4203686714172363
     Saved: ~
 Window Geometry:
   Displays:

@@ -1,10 +1,10 @@
 {
   "parent_frame_id": "world",
-  "child_frame_id": "red_cube",
+  "child_frame_id": "green_cube",
   "transform": {
     "translation": {
       "x": 0.0,
-      "y": 1.0,
+      "y": 0.8,
       "z": 0.0
     },
     "rotation": {
@@ -17,8 +17,8 @@
   "extra_data": {
     "active": true,
     "show_mesh": true,
-    "mesh_r": 1.0,
-    "mesh_g": 0.0,
+    "mesh_r": 0.0,
+    "mesh_g": 1.0,
     "mesh_b": 0.0,
     "mesh_a": 1.0,
     "mesh_type": 10,
