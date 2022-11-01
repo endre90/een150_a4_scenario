@@ -1,17 +1,17 @@
 {
-  "parent_frame_id": "rsp_tool0",
-  "child_frame_id": "rsp",
+  "parent_frame_id": "r1_rsp",
+  "child_frame_id": "r1_svt",
   "transform": {
     "translation": {
     	"x": 0.0,
         "y": 0.0,
-        "z": 0.037
+        "z": 0.0
     },
     "rotation": {
       "x": 0.0,
       "y": 0.0,
-      "z": -0.1950908,
-      "w": 0.9807852
+      "z": 0.0,
+      "w": 1.0
     }
   },
   "extra_data": {
@@ -22,7 +22,7 @@
     "mesh_b": 0.2,
     "mesh_a": 1.0,
     "mesh_type": 10,
-    "mesh_path": "/home/endre/Desktop/een150_a4_scenario/meshes/rsp.stl",
+    "mesh_path": "/home/endre/Desktop/een150_a4_scenario/meshes/svt.stl",
     "mesh_scale": 0.001
   }
 }

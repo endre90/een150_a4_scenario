@@ -1,11 +1,11 @@
 {
-  "parent_frame_id": "tool0",
-  "child_frame_id": "rsp_tool0",
+  "parent_frame_id": "green_cube",
+  "child_frame_id": "above_green_cube",
   "transform": {
     "translation": {
-    	"x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.2
     },
     "rotation": {
       "x": 0.0,
@@ -15,7 +15,6 @@
     }
   },
   "extra_data": {
-    "active": false,
-    "show_mesh": false
+    "active": false
   }
 }

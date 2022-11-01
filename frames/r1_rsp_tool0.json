@@ -1,17 +1,17 @@
 {
-  "parent_frame_id": "svt",
-  "child_frame_id": "svt_tcp",
+  "parent_frame_id": "r1_tool0",
+  "child_frame_id": "r1_rsp_tool0",
   "transform": {
     "translation": {
     	"x": 0.0,
         "y": 0.0,
-        "z": 0.313365
+        "z": 0.0
     },
     "rotation": {
-      "x": 1.0,
+      "x": 0.0,
       "y": 0.0,
       "z": 0.0,
-      "w": 0.0
+      "w": 1.0
     }
   },
   "extra_data": {
@@ -19,4 +19,3 @@
     "show_mesh": false
   }
 }
-
