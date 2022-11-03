@@ -1,11 +1,11 @@
 {
-  "parent_frame_id": "blue_cube",
-  "child_frame_id": "above_blue_cube",
+  "parent_frame_id": "world",
+  "child_frame_id": "pose_2",
   "transform": {
     "translation": {
       "x": 0.0,
-      "y": 0.0,
-      "z": 0.2
+      "y": 1.0,
+      "z": 0.05
     },
     "rotation": {
       "x": 0.0,
